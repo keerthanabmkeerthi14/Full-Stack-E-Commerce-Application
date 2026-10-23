@@ -11,7 +11,7 @@
 ![Java](https://img.shields.io/badge/Java-21-orange?style=flat-square&logo=openjdk&logoColor=white)
 ![Spring Boot](https://img.shields.io/badge/Spring_Boot-3.3-6DB33F?style=flat-square&logo=springboot&logoColor=white)
 ![React](https://img.shields.io/badge/React-18-61DAFB?style=flat-square&logo=react&logoColor=black)
-![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)
+
 
 **A production-ready, cloud-deployed full-stack e-commerce platform** built with **Spring Boot 3 (Java 21)** on the backend and **React 18 (Vite)** on the frontend. It features JWT-based stateless authentication, **Redis caching** for high-throughput product retrieval with graceful database degradation, **Razorpay** payment gateway integration, **full Docker containerization** with multi-stage builds and Nginx reverse proxying, and an **event-driven architecture** powered by **Apache Kafka (Aiven Cloud)** for real-time order notifications and automated inventory management.
 
@@ -539,6 +539,3 @@ This project is licensed under the MIT License — see the [LICENSE](LICENSE) fi
 
 ---
 
-<p align="center">
-  Built by <strong>Likhith</strong>
-</p>
