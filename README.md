@@ -103,7 +103,7 @@ Run the entire application stack (all 7 services) on your machine with one comma
 
 ```bash
 # 1. Clone repository
-git clone https://github.com/LIKHITH-M/Full-Stack-E-Commerce-Application.git
+git clone https://github.com/keerthanabm/Full-Stack-E-Commerce-Application.git
 cd Full-Stack-E-Commerce-Application
 
 # 2. Configure secrets (auto-read by docker compose)
@@ -234,7 +234,7 @@ docker compose up -d --build
 ```
 Full-Stack-E-Commerce-Application/
 ├── backend/                                    # Spring Boot REST API
-│   ├── src/main/java/com/likhith/ecomproj/
+│   ├── src/main/java/com/keerthanabm/ecomproj/
 │   │   ├── config/                             # Security, JWT & Kafka configuration
 │   │   │   ├── SecurityConfig.java             # Spring Security filter chain & CORS
 │   │   │   ├── JwtFilter.java                  # JWT token validation filter
