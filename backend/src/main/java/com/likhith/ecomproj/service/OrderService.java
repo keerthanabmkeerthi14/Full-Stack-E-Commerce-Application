@@ -1,15 +1,15 @@
-package com.keerthanabm.ecomproj.service;
+package com.likhith.ecomproj.service;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.keerthanabm.ecomproj.dto.CheckoutRequest;
-import com.keerthanabm.ecomproj.dto.OrderResponseDTO;
-import com.keerthanabm.ecomproj.model.*;
-import com.keerthanabm.ecomproj.repo.CartItemRepo;
-import com.keerthanabm.ecomproj.repo.OrderRepo;
-import com.keerthanabm.ecomproj.repo.OutboxEventRepo;
-import com.keerthanabm.ecomproj.repo.ProductRepo;
-import com.keerthanabm.ecomproj.repo.UserRepo;
+import com.likhith.ecomproj.dto.CheckoutRequest;
+import com.likhith.ecomproj.dto.OrderResponseDTO;
+import com.likhith.ecomproj.model.*;
+import com.likhith.ecomproj.repo.CartItemRepo;
+import com.likhith.ecomproj.repo.OrderRepo;
+import com.likhith.ecomproj.repo.OutboxEventRepo;
+import com.likhith.ecomproj.repo.ProductRepo;
+import com.likhith.ecomproj.repo.UserRepo;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
