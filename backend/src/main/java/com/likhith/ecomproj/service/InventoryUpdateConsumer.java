@@ -1,9 +1,9 @@
 package com.keerthanabm.ecomproj.service;
 
-import com.keerthanabm.ecomproj.model.OrderPlacedEvent;
-import com.keerthanabm.ecomproj.model.ProcessedEvent;
-import com.keerthanabm.ecomproj.model.Product;
-import com.keerthanabm.ecomproj.repo.ProcessedEventRepo;
+import com.likhith.ecomproj.model.OrderPlacedEvent;
+import com.likhith.ecomproj.model.ProcessedEvent;
+import com.likhith.ecomproj.model.Product;
+import com.likhith.ecomproj.repo.ProcessedEventRepo;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.dao.DataIntegrityViolationException;
