@@ -1,9 +1,9 @@
-package com.keerthanabm.ecomproj.service;
+package com.likhith.ecomproj.service;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.keerthanabm.ecomproj.model.OrderPlacedEvent;
-import com.keerthanabm.ecomproj.model.OutboxEvent;
-import com.keerthanabm.ecomproj.repo.OutboxEventRepo;
+import com.likhith.ecomproj.model.OrderPlacedEvent;
+import com.likhith.ecomproj.model.OutboxEvent;
+import com.likhith.ecomproj.repo.OutboxEventRepo;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.scheduling.annotation.Scheduled;
