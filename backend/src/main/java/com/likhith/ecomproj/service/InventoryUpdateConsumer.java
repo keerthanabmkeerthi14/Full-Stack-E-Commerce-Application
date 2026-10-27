@@ -1,4 +1,4 @@
-package com.keerthanabm.ecomproj.service;
+package com.likhith.ecomproj.service;
 
 import com.likhith.ecomproj.model.OrderPlacedEvent;
 import com.likhith.ecomproj.model.ProcessedEvent;
